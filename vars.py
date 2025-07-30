@@ -5,10 +5,10 @@ from os import environ
 
 API_ID = int(environ.get("API_ID", "12475131"))
 API_HASH = environ.get("API_HASH", "719171e38be5a1f500613837b79c536f")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7826060264:AAGoqCWgoyS2Swh1PDICpoJZNheRN6N1uxk")
+BOT_TOKEN = environ.get("BOT_TOKEN", "8375412893:AAGbtruJRYsRd1qh8pvsWjLFxKBzTZm4c3Y")
 
 OWNER = int(environ.get("OWNER", "1714266885"))
-CREDIT = environ.get("CREDIT", "Sky")
+CREDIT = environ.get("CREDIT", "Skystar")
 
 TOTAL_USER = os.environ.get('TOTAL_USERS', '1714266885').split(',')
 TOTAL_USERS = [int(user_id) for user_id in TOTAL_USER]
